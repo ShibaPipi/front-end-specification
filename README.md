@@ -122,7 +122,7 @@ npm i eslint-plugin-prettier eslint-config-prettier -D
     "@vue/typescript/recommended",
     "@vue/prettier",
     "@vue/prettier/@typescript-eslint",
-    'plugin:prettier/recommended'
+    "plugin:prettier/recommended"
   ],
 ```
 
@@ -169,8 +169,6 @@ npx huksy install
 ![image-20210723112817691](https://tva1.sinaimg.cn/large/008i3skNgy1gsqq26phpxj30dj06fgm3.jpg)
 
 接下来，我们需要去完成一个操作：在进行commit时，执行lint脚本：
-
-![image-20210723112932943](https://tva1.sinaimg.cn/large/008i3skNgy1gsqq3hn229j30nf04z74q.jpg)
 
 
 
