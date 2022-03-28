@@ -60,7 +60,7 @@ yarn add prettier -D
 ```json
 {
   "useTabs": false,
-  "tabWidth": 2,
+  "tabWidth": 4,
   "printWidth": 80,
   "singleQuote": true,
   "trailingComma": "none",
@@ -128,14 +128,14 @@ yarn add eslint-plugin-prettier eslint-config-prettier -D
 添加prettier插件：
 
 ```json
-  extends: [
-    "plugin:vue/vue3-essential",
-    "eslint:recommended",
-    "@vue/typescript/recommended",
-    "@vue/prettier",
-    "@vue/prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
-  ],
+extends: [
+  "plugin:vue/vue3-essential",
+  "eslint:recommended",
+  "@vue/typescript/recommended",
+  "@vue/prettier",
+  "@vue/prettier/@typescript-eslint",
+  "plugin:prettier/recommended"
+],
 ```
 
 
