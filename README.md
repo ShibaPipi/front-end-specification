@@ -14,7 +14,7 @@ root = true
 [*] # 表示所有文件适用
 charset = utf-8 # 设置文件字符集为 utf-8
 indent_style = space # 缩进风格（tab | space）
-indent_size = 2 # 缩进大小
+indent_size = 4 # 缩进大小
 end_of_line = lf # 控制换行类型(lf | cr | crlf)
 trim_trailing_whitespace = true # 去除行首的任意空白字符
 insert_final_newline = true # 始终在文件末尾插入一个新行
@@ -40,6 +40,7 @@ Prettier 是一款强大的代码格式化工具，支持 JavaScript、TypeScrip
 
 ```shell
 npm install prettier -D
+yarn add prettier -D
 ```
 
 2.配置.prettierrc文件：
@@ -111,6 +112,7 @@ npm install prettier -D
 
 ```shell
 npm i eslint-plugin-prettier eslint-config-prettier -D
+yarn add eslint-plugin-prettier eslint-config-prettier -D
 ```
 
 添加prettier插件：
@@ -194,6 +196,7 @@ npx huksy install
 
 ```shell
 npm install commitizen -D
+yarn add commitizen -D
 ```
 
 2.安装cz-conventional-changelog，并且初始化cz-conventional-changelog：
@@ -264,6 +267,7 @@ npx commitizen init cz-conventional-changelog --save-dev --save-exact
 
 ```shell
 npm i @commitlint/config-conventional @commitlint/cli -D
+yarn add @commitlint/config-conventional @commitlint/cli -D
 ```
 
 2.在根目录创建commitlint.config.js文件，配置commitlint
