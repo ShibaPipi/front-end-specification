@@ -38,8 +38,13 @@ Prettier 是一款强大的代码格式化工具，支持 JavaScript、TypeScrip
 
 1.安装prettier
 
+npm
 ```shell
 npm install prettier -D
+```
+
+yarn
+```shell
 yarn add prettier -D
 ```
 
