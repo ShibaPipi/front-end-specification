@@ -115,8 +115,13 @@ yarn add prettier -D
 
 安装插件：（vue在创建项目时，如果选择prettier，那么这两个插件会自动安装）
 
+npm
 ```shell
 npm i eslint-plugin-prettier eslint-config-prettier -D
+```
+
+yarn
+```shell
 yarn add eslint-plugin-prettier eslint-config-prettier -D
 ```
 
@@ -199,8 +204,13 @@ npx huksy install
 
 1.安装Commitizen
 
+npm
 ```shell
 npm install commitizen -D
+```
+
+yarn
+```shell
 yarn add commitizen -D
 ```
 
@@ -270,8 +280,13 @@ npx commitizen init cz-conventional-changelog --save-dev --save-exact
 
 1.安装 @commitlint/config-conventional 和 @commitlint/cli
 
+npm
 ```shell
 npm i @commitlint/config-conventional @commitlint/cli -D
+```
+
+yarn
+```shell
 yarn add @commitlint/config-conventional @commitlint/cli -D
 ```
 
